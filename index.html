@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishesh Dalwal - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="dark-theme">
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">VD</div>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="section fade-in">
+        <div class="container">
+          <div class="hero">
+            <img src="profile.jpg" alt="Vishesh Dalwal" class="profile-photo" />
+            <div class="hero-text">
+              <h1 class="hero-title">Vishesh Dalwal</h1>
+              <p class="hero-tagline">Learning to Code, Creating for the Web</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section fade-in">
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <p class="about-text">
+            A passionate web developer constantly honing my skills to build
+            impactful digital experiences. I'm driven by a desire to create
+            clean, functional, and user-friendly web solutions.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section fade-in">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-container">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+  🔧 NOTE FOR FUTURE PROJECTS:
+  To add a new project, simply insert a new <button> with class "project-btn" 
+  and set the target URL using the data-link attribute like this:
+
+    <button class="project-btn" data-link="https://your-link.com">View Project</button>
+
+  ✅ No need to modify script.js — it's already set up to handle these buttons automatically.
+-->
+
+      <!-- Projects Section -->
+      <section id="projects" class="section fade-in">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <h3 class="project-title">📝 Notes App</h3>
+              <p class="project-description">
+                A minimalist note-taking web app with light/dark mode and
+                timestamp features.
+              </p>
+              <button
+                class="project-btn"
+                data-link="https://VisheshD2412.github.io/notes-app/"
+              >
+                View Project
+              </button>
+            </div>
+            <div class="project-card">
+              <h3 class="project-title">TaskMaster</h3>
+              <p class="project-description">
+                a fully functional, modern, and responsive To-Do List web
+                application built with vanilla HTML, CSS, and JavaScript.
+              </p>
+              <button
+                class="project-btn"
+                data-link="https://visheshd2412.github.io/todo-app/"
+              >
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section fade-in">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-links">
+            <a
+              href="https://github.com/VisheshD2412"
+              target="_blank"
+              class="contact-link"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/vishesh-dalwal-a60312228/"
+              target="_blank"
+              class="contact-link"
+              >LinkedIn</a
+            >
+            <a
+              href="https://x.com/visheshdalwal"
+              target="_blank"
+              class="contact-link"
+              >Twitter</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Vishesh Dalwal. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
